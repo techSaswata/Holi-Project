@@ -108,6 +108,18 @@
             100% { transform: translateY(300px) scaleY(0); transform-origin: bottom; text-shadow: -180px 0 0 var(--clr), 180px 0 var(--clr); }
         }
 
+        .inner-circle {
+            height: 180px;
+            width: 180px;
+            position: absolute;
+            background: url('./img/Fav1.jpeg');
+            background-size: cover;
+            top: 10px;
+            left: 10px;
+            border-radius: 50%;
+            z-index: 9;
+        }
+        
         .box-c {
             display: flex;
             flex-direction: column;
@@ -140,17 +152,7 @@
         }
 
 
-        .inner-circle {
-            height: 180px;
-            width: 180px;
-            position: absolute;
-            background: url('./img/Fav1.jpeg');
-            background-size: cover;
-            top: 10px;
-            left: 10px;
-            border-radius: 50%;
-            z-index: 9;
-        }
+
 
         @keyframes rotate {
             0% { filter: hue-rotate(0deg); }
